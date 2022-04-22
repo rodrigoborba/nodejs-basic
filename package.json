@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-basic",
+  "version": "1.0.0",
+  "description": "basic node app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigoborba/nodejs-basic.git"
+  },
+  "keywords": [
+    "school",
+    "of",
+    "net",
+    "init",
+    "node.js",
+    "node.js"
+  ],
+  "author": "rodrigo borba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigoborba/nodejs-basic/issues"
+  },
+  "homepage": "https://github.com/rodrigoborba/nodejs-basic#readme"
+}
