@@ -1,3 +1,5 @@
+var querystring = require('querystring')
+
 function handle(request, response){
 
     showConsole()
@@ -19,6 +21,20 @@ function handleWriteHtml(request, response){
 
     response.writeHead(200, {
         'Content-Type': 'text/html'
+    })
+
+    var body = ''
+
+    //pega valores da requisicao e passa dentro de data
+    request.on('data', function(data){
+        body += data.toString()
+    })
+
+    request.on('end', function(){
+        var decode = querystring.parse(body)
+
+        console.log('decode ')
+        console.log(decode)
     })
 
     response.write("<!DOCTYPE html>");

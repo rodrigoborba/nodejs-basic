@@ -21,12 +21,12 @@ module.exports.name = function(){
 
 //forma 5
 module.exports = {
-    a: function() {
+    name: function() {
         let frase = 'My name is Rodrigo(exports)'
         console.log('imprimindo frase ' + frase)
         return frase
     },
-    b: function() {
+    outraReferencia: function() {
         console.log('outra function')
     }
 }
