@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/rodrigoborba/nodejs-basic/issues"
   },
-  "homepage": "https://github.com/rodrigoborba/nodejs-basic#readme"
+  "homepage": "https://github.com/rodrigoborba/nodejs-basic#readme",
+  "dependencies": {
+    "console-log-hello-world": "^1.0.3",
+    "websocket": "^1.0.34"
+  }
 }
